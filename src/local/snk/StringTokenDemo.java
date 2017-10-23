@@ -12,7 +12,7 @@ public class StringTokenDemo {
 	 * @param args	Input argument for the program.
 	 */
     public static void main(String[] args) {
-        String test = "pdf, doc";
+        String test = "pdf, doc, html";
 	    List<String> tokens = new StrTokenizer(test, ",").setTrimmerMatcher(StrMatcher.spaceMatcher()).getTokenList();
 	    for (String token : tokens)
         {
