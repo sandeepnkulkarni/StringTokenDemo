@@ -1,4 +1,4 @@
-package local.snk;
+﻿package local.snk;
 
 import java.util.List;
 import org.apache.commons.lang3.text.*;
