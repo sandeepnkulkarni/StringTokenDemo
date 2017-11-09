@@ -10,7 +10,7 @@
 	<version>1.0.2-FINAL</version>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
-		<finalName>${artifactId}</finalName>
+		<finalName>${project.artifactId}</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
