@@ -7,10 +7,10 @@
 	</properties>
 	<groupId>local.snk</groupId>
 	<artifactId>StringTokenDemo</artifactId>
-	<version>1.0.2-FINAL</version>
+	<version>1.0.0-FINAL</version>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
-		<finalName>${project.artifactId}</finalName>
+		
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -20,36 +20,9 @@
 					<source>1.8</source>
 					<target>1.8</target>
 				</configuration>
-			</plugin>
-
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-jar-plugin</artifactId>
-				<version>3.0.2</version>
-				<configuration>
-					<archive>
-						<manifest>
-							<addDefaultImplementationEntries>true</addDefaultImplementationEntries>
-						</manifest>
-					</archive>
-				</configuration>
-			</plugin>
-
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-javadoc-plugin</artifactId>
-				<version>2.10.4</version>
-				<executions>
-					<execution>
-						<id>attach-javadocs</id>
-						<phase>package</phase>
-						<goals>
-							<goal>jar</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
+			</plugin>		
 		</plugins>
+		
 	</build>
 	<dependencies>
 		<dependency>
