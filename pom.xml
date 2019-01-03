@@ -30,6 +30,9 @@
 					<archive>
 						<manifest>
 							<addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+							<addClasspath>true</addClasspath>
+                            <classpathPrefix>lib/</classpathPrefix>
+                            <mainClass>local.snk.StringTokenDemo</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
