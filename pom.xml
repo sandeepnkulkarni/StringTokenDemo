@@ -31,8 +31,8 @@
 						<manifest>
 							<addDefaultImplementationEntries>true</addDefaultImplementationEntries>
 							<addClasspath>true</addClasspath>
-                            <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>local.snk.StringTokenDemo</mainClass>
+							<classpathPrefix>lib/</classpathPrefix>
+							<mainClass>local.snk.StringTokenDemo</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
@@ -52,7 +52,7 @@
 					</execution>
 				</executions>
 			</plugin>
-			
+
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-dependency-plugin</artifactId>
@@ -69,7 +69,7 @@
 					</execution>
 				</executions>
 			</plugin>
-			
+
 		</plugins>
 	</build>
 	<dependencies>
